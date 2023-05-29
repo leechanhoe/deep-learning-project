@@ -21,4 +21,5 @@ Heatmap이랑 Tsne로 Intermediate feature space 시각화한 코드 - GPT돌리
 
 main model 구조에 Loss함수만 크로스엔트로피 방식에서 Center Loss 방식을 사용한것.
 
-나머지 시각화는 main_model이랑 비슷
+나머지 시각화는 main_model이랑 비슷한데, TSNE에서 중간공간을 단계별로 4개로 나누어(시작 - 중간1 - 중간2 - 끝)
+어떻게 중간공간이 변화해가는지 비교
